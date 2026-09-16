@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio SM Beauty | Extensão de Cílios e Maquiagem no Jardim Sulacap - RJ</title>
+  <meta name="description" content="Studio SM Beauty em Jardim Sulacap, RJ. Extensão de cílios (Volume Brasileiro, Fox Eyes, Mega Volume), design de sobrancelhas e maquiagens para eventos. Agende pelo WhatsApp!">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- CSS Customizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top bar de aviso -->
+  <div class="top-bar py-2 text-center text-white small">
+    <div class="container">
+      <i class="bi bi-geo-alt-fill me-1 text-gold"></i> Jardim Sulacap, Rio de Janeiro | Espaço 100% climatizado com atendimento exclusivo
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex flex-column" href="#">
+        <span class="brand-title">Studio SM Beauty</span>
+        <span class="brand-sub">Olhares & Maquiagem Profissional</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Menu de Navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link px-3" href="#sobre">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#servicos">Procedimentos</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#avaliacoes">Avaliações</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#localizacao">Localização</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#faq">Dúvidas</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="#agendamento" class="btn btn-sm-custom px-4 py-2">
+              <i class="bi bi-whatsapp me-2"></i>Agendar Agora
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section py-5 position-relative">
+    <div class="container py-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 text-center text-lg-start">
+          <div class="badge-google d-inline-flex align-items-center mb-3 px-3 py-1 rounded-pill">
+            <div class="stars me-2">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <span class="fw-semibold text-dark">5,0 no Google</span>
+            <span class="text-muted ms-1 small">Avaliações comprovadas</span>
+          </div>
+          <h1 class="display-4 fw-bold hero-title mb-3">Realce seu olhar e acorde impecável todos os dias.</h1>
+          <p class="lead text-muted mb-4">
+            Especialistas em extensão de cílios personalizadas, sobrancelhas alinhadas e maquiagens de alta durabilidade em Jardim Sulacap, Rio de Janeiro.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+            <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%20no%20Studio%20SM%20Beauty." target="_blank" class="btn btn-primary-gold btn-lg shadow">
+              <i class="bi bi-whatsapp me-2"></i>Agendar Horário no WhatsApp
+            </a>
+            <a href="#servicos" class="btn btn-outline-custom btn-lg">Conhecer Serviços</a>
+          </div>
+          <div class="row mt-4 pt-3 border-top border-muted-subtle text-start">
+            <div class="col-4">
+              <span class="d-block fw-bold fs-5 text-dark">+100</span>
+              <small class="text-muted">Olhares renovados</small>
+            </div>
+            <div class="col-4">
+              <span class="d-block fw-bold fs-5 text-dark">5.0 ★</span>
+              <small class="text-muted">No Google Maps</small>
+            </div>
+            <div class="col-4">
+              <span class="d-block fw-bold fs-5 text-dark">100%</span>
+              <small class="text-muted">Personalizado</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-image-wrap position-relative">
+            <img src="https://images.unsplash.com/photo-1583001809873-a128495da465?q=80&w=900&auto=format&fit=crop" class="img-fluid rounded-4 shadow-lg main-hero-img" alt="Extensão de Cílios Profissional">
+            <div class="floating-card p-3 rounded-3 shadow bg-white d-flex align-items-center gap-3">
+              <div class="icon-circle bg-gold-light text-gold">
+                <i class="bi bi-gem fs-4"></i>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold small text-dark">Técnicas Modernas</p>
+                <small class="text-muted">Fox Eyes, Volume Brasileiro & Mega</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Diferenciais -->
+  <section class="py-5 bg-warm" id="sobre">
+    <div class="container">
+      <div class="text-center max-w-600 mx-auto mb-5">
+        <span class="badge-tag">Por que escolher o Studio SM Beauty?</span>
+        <h2 class="section-title mt-2">Um refúgio de beleza pensado no seu conforto</h2>
+        <p class="text-muted">Aqui, cada cliente recebe um atendimento com atenção individual, higiene rigorosa e produtos de excelência.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card p-4 rounded-4 bg-white h-100 text-center shadow-sm">
+            <div class="feature-icon mb-3 mx-auto">
+              <i class="bi bi-snow2"></i>
+            </div>
+            <h4 class="fw-bold fs-5 mb-2">Espaço Climatizado</h4>
+            <p class="text-muted small mb-0">Ambiente aconchegante, silencioso e preparado para você descansar enquanto cuidamos de você.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 rounded-4 bg-white h-100 text-center shadow-sm">
+            <div class="feature-icon mb-3 mx-auto">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h4 class="fw-bold fs-5 mb-2">Fios & Produtos Seguros</h4>
+            <p class="text-muted small mb-0">Materiais hipoalergênicos e de alta durabilidade, respeitando o ciclo e a integridade da sua pele e fios.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 rounded-4 bg-white h-100 text-center shadow-sm">
+            <div class="feature-icon mb-3 mx-auto">
+              <i class="bi bi-magic"></i>
+            </div>
+            <h4 class="fw-bold fs-5 mb-2">Mapeamento Sob Medida</h4>
+            <p class="text-muted small mb-0">Analisamos seu formato de rosto e olhos para escolher a curvatura e espessura perfeitas para você.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Procedimentos / Menu de Serviços -->
+  <section class="py-5" id="servicos">
+    <div class="container">
+      <div class="text-center max-w-600 mx-auto mb-5">
+        <span class="badge-tag">Procedimentos Exclusivos</span>
+        <h2 class="section-title mt-2">Nossas Especialidades</h2>
+        <p class="text-muted">Escolha o serviço ideal para o seu estilo de vida ou evento especial.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=700&auto=format&fit=crop" class="card-img-top service-img" alt="Volume Brasileiro">
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="card-title fw-bold fs-5 mb-0">Volume Brasileiro</h3>
+                <span class="badge bg-gold-subtle text-gold">Mais pedido</span>
+              </div>
+              <p class="card-text text-muted small flex-grow-1">
+                Fios em formato de "Y" que oferecem efeito natural, leve e marcante. Ideal para quem quer praticidade todos os dias sem excessos.
+              </p>
+              <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Quero%20agendar%20o%20Volume%20Brasileiro." target="_blank" class="btn btn-outline-custom w-100 mt-3">
+                Agendar Volume Brasileiro
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=700&auto=format&fit=crop" class="card-img-top service-img" alt="Fox Eyes">
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="card-title fw-bold fs-5 mb-0">Fox Eyes</h3>
+                <span class="badge bg-gold-subtle text-gold">Tendência</span>
+              </div>
+              <p class="card-text text-muted small flex-grow-1">
+                Alongamento estratégico nos cantos externos que confere efeito "olhar felino" e delineado sensual que levanta o olhar.
+              </p>
+              <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Fox%20Eyes." target="_blank" class="btn btn-outline-custom w-100 mt-3">
+                Agendar Fox Eyes
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=700&auto=format&fit=crop" class="card-img-top service-img" alt="Mega Volume">
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="card-title fw-bold fs-5 mb-0">Mega Volume</h3>
+                <span class="badge bg-dark text-white">Impacto</span>
+              </div>
+              <p class="card-text text-muted small flex-grow-1">
+                Fans ultrafinos para quem ama máxima densidade, volume encorpado e efeito pretinho sem agredir a raiz do fio natural.
+              </p>
+              <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Quero%20agendar%20um%20Mega%20Volume." target="_blank" class="btn btn-outline-custom w-100 mt-3">
+                Agendar Mega Volume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-6">
+          <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?q=80&w=700&auto=format&fit=crop" class="card-img-top service-img" alt="Design de Sobrancelhas">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="card-title fw-bold fs-5 mb-2">Design de Sobrancelhas</h3>
+              <p class="card-text text-muted small flex-grow-1">
+                Alinhamento e desenho simétrico respeitando os contornos do rosto para criar a moldura perfeita do seu novo olhar.
+              </p>
+              <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Design%20de%20Sobrancelhas." target="_blank" class="btn btn-outline-custom w-100 mt-3">
+                Agendar Sobrancelhas
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-6 col-lg-6">
+          <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=700&auto=format&fit=crop" class="card-img-top service-img" alt="Maquiagem Profissional">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="card-title fw-bold fs-5 mb-2">Maquiagem Profissional</h3>
+              <p class="card-text text-muted small flex-grow-1">
+                Produções personalizadas com produtos de alta durabilidade e acabamento blindado para casamentos, formaturas e ensaios.
+              </p>
+              <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20data%20para%20Maquiagem%20Social/Evento." target="_blank" class="btn btn-outline-custom w-100 mt-3">
+                Agendar Maquiagem
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulador de Agendamento Rápido -->
+  <section class="py-5 bg-warm" id="agendamento">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-lg rounded-4 p-4 p-md-5">
+            <div class="text-center mb-4">
+              <span class="badge-tag">Agendamento Fácil</span>
+              <h3 class="section-title mt-2">Escolha seu procedimento</h3>
+              <p class="text-muted small">Preencha abaixo para gerar sua mensagem personalizada direta no nosso WhatsApp.</p>
+            </div>
+
+            <form id="bookingForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label small fw-semibold text-dark">Seu Nome</label>
+                  <input type="text" class="form-control" id="clientName" placeholder="Ex: Camila Silva" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label small fw-semibold text-dark">Procedimento Desejado</label>
+                  <select class="form-select" id="serviceSelect" required>
+                    <option value="" disabled selected>Selecione um procedimento...</option>
+                    <option value="Volume Brasileiro">Extensão - Volume Brasileiro</option>
+                    <option value="Fox Eyes">Extensão - Fox Eyes</option>
+                    <option value="Mega Volume">Extensão - Mega Volume</option>
+                    <option value="Design de Sobrancelhas">Design de Sobrancelhas</option>
+                    <option value="Maquiagem Social/Evento">Maquiagem Social / Festa</option>
+                    <option value="Combo Cílios + Sobrancelhas">Combo: Cílios + Sobrancelhas</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label small fw-semibold text-dark">Melhor Período</label>
+                  <select class="form-select" id="periodSelect">
+                    <option value="Manhã (09h - 12h)">Manhã (09h às 12h)</option>
+                    <option value="Tarde (13h - 17h)">Tarde (13h às 17h)</option>
+                    <option value="Noite (17h - 20h)">Noite (17h às 20h)</option>
+                    <option value="Qualquer horário disponível">Qualquer horário disponível</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label small fw-semibold text-dark">Dia de Preferência</label>
+                  <select class="form-select" id="daySelect">
+                    <option value="O mais rápido possível">O mais rápido possível</option>
+                    <option value="Durante a semana">Durante a semana (Segunda a Sexta)</option>
+                    <option value="No final de semana">Sábado</option>
+                  </select>
+                </div>
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-primary-gold w-100 py-3 fw-bold">
+                    <i class="bi bi-whatsapp me-2"></i>Enviar e Verificar Horários no WhatsApp
+                  </button>
+                  <p class="text-center text-muted small mt-2 mb-0">Você será redirecionada para o WhatsApp do Studio SM Beauty.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avaliações Google Maps -->
+  <section class="py-5" id="avaliacoes">
+    <div class="container">
+      <div class="text-center max-w-600 mx-auto mb-5">
+        <span class="badge-tag">Depoimentos Reais</span>
+        <h2 class="section-title mt-2">O que dizem nossas clientes</h2>
+        <p class="text-muted">Nota máxima de satisfação no Google Maps.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <div class="testimonial-card p-4 rounded-4 bg-white shadow-sm h-100 position-relative">
+            <i class="bi bi-quote quote-icon"></i>
+            <div class="stars mb-3 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="fst-italic text-dark mb-4">"Sempre que tenho algum evento, ela é a minha escolha para maquiagem."</p>
+            <div class="d-flex align-items-center">
+              <div class="avatar-circle me-3">LB</div>
+              <div>
+                <h5 class="fw-bold fs-6 mb-0 text-dark">Lívia Bonsanto</h5>
+                <small class="text-muted"><i class="bi bi-google me-1 text-primary"></i>Avaliação no Google</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-5">
+          <div class="testimonial-card p-4 rounded-4 bg-white shadow-sm h-100 position-relative">
+            <i class="bi bi-quote quote-icon"></i>
+            <div class="stars mb-3 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="fst-italic text-dark mb-4">"A minha experiência é maravilhosa, podem agendar sem medo de ser feliz."</p>
+            <div class="d-flex align-items-center">
+              <div class="avatar-circle me-3">SB</div>
+              <div>
+                <h5 class="fw-bold fs-6 mb-0 text-dark">Silvia Bonsanto</h5>
+                <small class="text-muted"><i class="bi bi-google me-1 text-primary"></i>Avaliação no Google</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instagram Callout -->
+      <div class="text-center mt-5">
+        <a href="https://www.instagram.com/studiosm.beauty/" target="_blank" class="btn btn-outline-dark rounded-pill px-4 py-2">
+          <i class="bi bi-instagram me-2 text-danger"></i>Acompanhe nossos trabalhos no @studiosm.beauty
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Localização e Informações -->
+  <section class="py-5 bg-warm" id="localizacao">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5">
+          <span class="badge-tag">Onde Estamos</span>
+          <h2 class="section-title mt-2 mb-4">Venha viver essa experiência relaxante</h2>
+          <div class="d-flex align-items-start mb-3">
+            <i class="bi bi-geo-alt-fill text-gold fs-4 me-3 mt-1"></i>
+            <div>
+              <h5 class="fw-bold fs-6 mb-1 text-dark">Endereço</h5>
+              <p class="text-muted mb-0 small">R. Oliveira Martins, 126 - Jardim Sulacap, Rio de Janeiro - RJ, 21741-280</p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-3">
+            <i class="bi bi-clock-fill text-gold fs-4 me-3 mt-1"></i>
+            <div>
+              <h5 class="fw-bold fs-6 mb-1 text-dark">Horário de Atendimento</h5>
+              <p class="text-muted mb-0 small">Segunda a Sábado: 09:00 às 20:00 (com hora marcada)</p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-4">
+            <i class="bi bi-telephone-fill text-gold fs-4 me-3 mt-1"></i>
+            <div>
+              <h5 class="fw-bold fs-6 mb-1 text-dark">Telefone / WhatsApp</h5>
+              <p class="text-muted mb-0 small">(21) 97660-1869</p>
+            </div>
+          </div>
+
+          <a href="https://maps.google.com/?q=R.+Oliveira+Martins,+126+-+Jardim+Sulacap,+Rio+de+Janeiro+-+RJ,+21741-280" target="_blank" class="btn btn-sm-custom px-4 py-2">
+            <i class="bi bi-map me-2"></i>Traçar Rota no GPS
+          </a>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="map-container rounded-4 overflow-hidden shadow-sm">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.012574041793!2d-43.39958742468984!3d-22.875953079275464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9964ca6e9dc761%3A0xe54e5a95f9c45bf6!2sR.%20Oliveira%20Martins%2C%20126%20-%20Jardim%20Sulacap%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021741-280!5e0!3m2!1spt-BR!2sbr!4v1715000000000!5m2!1spt-BR!2sbr" 
+              width="100%" 
+              height="350" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ (Dúvidas Frequentes) -->
+  <section class="py-5" id="faq">
+    <div class="container">
+      <div class="text-center max-w-600 mx-auto mb-5">
+        <span class="badge-tag">Tire Suas Dúvidas</span>
+        <h2 class="section-title mt-2">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion accordion-flush" id="faqAccordion">
+            <div class="accordion-item mb-3 border rounded-3 shadow-sm overflow-hidden">
+              <h2 class="accordion-header" id="faq1">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                  O procedimento de extensão de cílios dói?
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted small">
+                  Não dói nada! O procedimento é 100% indolor, feito com os olhos fechados em nossa maca confortável. Muitas clientes aproveitam a sessão relaxante para tirar um cochilo.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3 border rounded-3 shadow-sm overflow-hidden">
+              <h2 class="accordion-header" id="faq2">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                  Quanto tempo duram as extensões?
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted small">
+                  A duração média varia entre 15 a 25 dias até a necessidade de manutenção, acompanhando o ciclo natural de crescimento e queda dos seus próprios fios.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3 border rounded-3 shadow-sm overflow-hidden">
+              <h2 class="accordion-header" id="faq3">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                  A extensão danifica meus fios naturais?
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted small">
+                  Com certeza não, desde que aplicada por um profissional qualificado! Aqui no Studio SM Beauty respeitamos rigorosamente a espessura e peso suportados pelo seu fio natural, mantendo a saúde do seu olhar.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3 border rounded-3 shadow-sm overflow-hidden">
+              <h2 class="accordion-header" id="faq4">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                  Como funciona a maquiagem para eventos?
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted small">
+                  Fazemos maquiagens resistentes a lágrimas e suor (pele blindada/alta durabilidade), adequadas para noivas, madrinhas, formandas ou convidadas. Recomendamos agendar com antecedência para garantir a sua data.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Final -->
+  <section class="py-5 cta-banner text-center text-white">
+    <div class="container py-4">
+      <h2 class="display-6 fw-bold mb-3">Pronta para transformar seu olhar?</h2>
+      <p class="lead mb-4 opacity-75">Venha relaxar em nosso espaço climatizado no Jardim Sulacap e saia pronta para qualquer ocasião.</p>
+      <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20SM%20Beauty." target="_blank" class="btn btn-primary-gold btn-lg shadow-lg">
+        <i class="bi bi-whatsapp me-2"></i>Falar com o Studio no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center text-md-start">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h5 class="mb-1 fw-bold text-gold">Studio SM Beauty</h5>
+          <p class="small text-secondary mb-0">Rua Oliveira Martins, 126 - Jardim Sulacap, Rio de Janeiro - RJ</p>
+          <p class="small text-secondary mb-0">CNPJ / Atendimento com agendamento prévio</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="https://www.instagram.com/studiosm.beauty/" target="_blank" class="text-white fs-4 me-3 text-decoration-none">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://wa.me/5521976601869" target="_blank" class="text-white fs-4 text-decoration-none">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <div class="mt-2 text-secondary small">
+            &copy; <span id="currentYear"></span> Studio SM Beauty. Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/5521976601869?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os." 
+     target="_blank" 
+     class="whatsapp-floating" 
+     aria-label="Falar conosco no WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    <span class="whatsapp-tooltip">Agende seu horário</span>
+  </a>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS Customizado -->
+  <script src="js/main.js"></script>
+</body>
+</html>
